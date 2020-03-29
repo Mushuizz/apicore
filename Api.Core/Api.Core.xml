@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Api.Core.Controllers.HomeController">
+            <summary>
+            home控制器
+            </summary>
+        </member>
+        <member name="M:Api.Core.Controllers.HomeController.Get">
+            <summary>
+            get用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Core.Controllers.LoginController.LoginAsync(Api.Core.Model.User.UserCredentials)">
+            <summary>
+            登录
+            </summary>
+            <param name="userCredentials"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
