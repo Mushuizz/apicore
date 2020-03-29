@@ -40,6 +40,7 @@ namespace Api.Core
 
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddSingleton(new Appsetting(Env.ContentRootPath));
             #region cache             
             services.AddMemoryCache();
